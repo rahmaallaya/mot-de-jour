@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    width: 100%;
+    background-color: rgb(246, 232, 215);
+    height: 100vh;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(image3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header{
+    width: 100%;
+    padding: 1em;
+    
+}
+.header h1{
+    color: #060606d8;
+    text-align: center;
+     margin-bottom: 20px;
+     margin-bottom: 70px;
+}
+.words{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.rows{
+    display: flex;
+    flex-direction: row;
+    
+}
+.word{
+    border: 1px solid #D3D3D3;
+    width: 4em;
+    height: 4em;
+    margin-right: 0.4em;
+    margin-bottom: 0.4em;
+    border-radius: 4px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornsilk;
+}
+
+.keyborad{
+    padding-bottom: 1em;
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.keyborad button{
+    background-color: #FFF;
+    color :black;
+    outline: none;
+    border: 1px solid #D3D3D3;
+    padding: 1em;
+    cursor: pointer;
+    margin-bottom: 0.4em;
+    border-radius: 4px;
+
+}
+.green{
+    background-color: #28a212 !important;
+    color: white !important;
+}
+.orange {
+    background-color: #FFA500 !important;
+    color: white !important;
+}
+.grey{
+    background-color: #696969 !important;
+    color: white !important;
+}
